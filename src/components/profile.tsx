@@ -3,7 +3,7 @@ import "../styles/profile.css";
 
 const Profile: React.FC = () => {
 
-    const [imageProfile] = useState<string>("/src/assets/profile.jpg");
+    const [imageProfile] = useState<string>("https://avatars.githubusercontent.com/u/84932111?v=4");
 
     return (
         <div className="ProfileContainer">
